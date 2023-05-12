@@ -1,9 +1,23 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Warnings!!!
+Some information was not clear to ME in the second Requirement. 
+It was not possible to search for character name and character culture using the books api but it was available with the characters api.
+Also I could not search the books using the characters api because the characters api
+does not contain fields like name,authors,publishers,isbn.
+I 100% open to learning if it was something on my end that I didnt figure. Thank you 😄
+## How to query a search
+
+Use the dropdown list under Search by to select the search param
+Add any keyword of the search term in search term and press Search button
+## How to paginate
+One data is loaded, pagination will show at the bottom right of the page. Click any number to paginate
+
+## Infinite Loader
+Once data is returned, the load more button will show and click it loads more info from the api and updates the state accordingly
+
+
 
 ## Available Scripts
-
 In the project directory, you can run:
 
 ### `npm start`

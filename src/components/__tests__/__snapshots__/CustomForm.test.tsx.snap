@@ -1,0 +1,105 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CustomForm renders correctly 1`] = `
+<div>
+  <div
+    class="row "
+  >
+    <div
+      class="mx-4 my-2 "
+    >
+      <form
+        class="mb-3"
+      >
+        <div
+          class="row col-12"
+        >
+          <div
+            class="col"
+          >
+            <label
+              class="form-label"
+              for="searchType"
+            >
+              Search by:
+            </label>
+            <select
+              class="form-select"
+              id="searchType"
+            >
+              <option
+                value="name"
+              >
+                Name
+              </option>
+              <option
+                value="publisher"
+              >
+                Publisher
+              </option>
+              <option
+                value="isbn"
+              >
+                ISBN
+              </option>
+              <option
+                value="authors"
+              >
+                Authors
+              </option>
+              <option
+                value="endDate"
+              >
+                End Date
+              </option>
+              <option
+                value="characterName"
+              >
+                Character Name
+              </option>
+              <option
+                value="characterCulture"
+              >
+                Character Culture
+              </option>
+            </select>
+          </div>
+          <div
+            class="col "
+          >
+            <label
+              class="form-label"
+              for="searchQuery"
+            >
+              Search term:
+            </label>
+            <input
+              class="form-control"
+              id="searchQuery"
+              type="text"
+              value=""
+            />
+          </div>
+          <div
+            class="col "
+            style="margin-top: 30px;"
+          >
+            <button
+              class="btn btn-primary mx-2"
+              type="submit"
+            >
+              Search
+            </button>
+            <button
+              class="btn btn-secondary mx-2"
+              type="button"
+            >
+              Clear
+            </button>
+          </div>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>
+`;
